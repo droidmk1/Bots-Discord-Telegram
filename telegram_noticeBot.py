@@ -5,9 +5,9 @@ from web_scrap import precioDeseado
 
 def telegram_bot_sendtext(bot_message):
 
-    bot_token  = '2052847633:AAFcfcmOLI65KSjG0gAS7VIP6O9qAkMc7aQ'
+    bot_token  = '<telegram_code>'
 
-    bot_chatID = '1064793253'
+    bot_chatID = '<telegram_chatID>'
 
     enviar_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
 
