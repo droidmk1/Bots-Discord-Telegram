@@ -11,7 +11,7 @@ bot = commands.Bot(command_prefix=">", description="Soy el bot dis_noticeBot")
 
 @bot.command()
 async def ready(ctx):
-    await ctx.send('Soy un inge')
+    await ctx.send('Ignorame solo soy un bot')
 
 @bot.command()
 async def info(ctx):
@@ -33,14 +33,7 @@ async def steamDiscount(ctx):
 # Eventos
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Streaming(name="Tu onichan favorito", url="https://www.twitch.tv/alpakiita"))
+    await bot.change_presence(activity=discord.Streaming(name="Tu bot favorito", url="https://www.twitch.tv/rubius"))
     print('Bot Ready')
 
-bot.run('OTEzODk5NDYyODgyMDk5MjEw.YaFNMw.FTzXmfaE-Mhf8cnPyTnMlb_K_kE')
-
-
-
-
-
-
-# https://www.twitch.tv/alpakiita
+bot.run('<your_discord_code>')
